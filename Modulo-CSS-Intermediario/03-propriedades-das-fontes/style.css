@@ -1,0 +1,15 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+
+
+/* ------ Tamanho da fonte ------ */
+    font-size: 20px;
+
+
+  /* ------ Peso da fonte ------ */
+    font-weight: 600;
+}

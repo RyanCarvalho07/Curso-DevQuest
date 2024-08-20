@@ -1,0 +1,23 @@
+.descricao{
+    background-color: orange;
+    color: cyan;
+}
+
+.descricao-promocao{
+ border: 5px solid cornflowerblue;
+ background-color: orange;
+ color: aliceblue;
+}
+
+
+          /* ID
+#descricao{
+    background-color: orange;
+    color: cyan;
+}
+
+#descricao-promocao{
+ border: 5px solid cornflowerblue;
+ background-color: orange;
+ color: aliceblue;
+} */

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ul{
+     /* list-style-image:url(./imagens/icon.png)
+      */
+
+      background-color: blue;
+    list-style: square inside url(./imagens/icon.png); 
+    list-style-position: inside;
+
+}
+
+ul li {
+    border: 1px solid black;
+    padding: 30px;
+}
+
+ol{
+         /* list-style-image:url(./imagens/icon.png)
+      */
+
+      background-color: lightslategray;
+    list-style: square inside url(./imagens/icon.png); 
+    list-style-position: inside;
+
+}
+
+ol li{
+    border: 1px solid black;
+    padding: 30px;
+}
+

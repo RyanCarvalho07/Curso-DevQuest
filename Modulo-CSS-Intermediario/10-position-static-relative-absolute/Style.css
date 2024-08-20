@@ -1,0 +1,110 @@
+ *{
+    margin: 0;
+}
+
+.elemento{
+    color: #fff;
+    font-size: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.elemento-estatico{
+    /* position: static; -----esse comando vem por padrão no elemento----- */
+
+    background-color: crimson;
+}
+
+ .elemento-relativo{
+    position: relative;
+    left: 100px;
+    background-color: coral;
+}
+
+.elemento-absoluto{
+     position: absolute;
+    background-color: darkcyan;
+    left: 200px;
+   
+
+}   
+
+
+
+.elemento-relativo-com-filho{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(214, 212,212);
+} 
+
+.elemento-absoluto-com-pai {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+     top: 15px; 
+     left: 50px; 
+    background-color: darkcyan;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
+* {
+    margin: 0;
+  }
+  
+  .elemento {
+    color: #fff;
+    font-size: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .elemento-estatico {
+    position: static;
+    background-color: crimson;
+  }
+  
+  .elemento-relativo {
+    position: relative;
+    background-color: coral;
+    left: 100px;
+  }
+  
+  .elemento-absoluto {
+    position: absolute;
+    background-color: darkcyan;
+    left: 165px;
+  }
+  
+  .elemento-relativo-com-filho {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: gray;
+  }
+  
+  .elemento-absoluto-com-pai {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 15px;
+    left: 50px;
+    background-color: darkcyan;
+  }
+   */ 

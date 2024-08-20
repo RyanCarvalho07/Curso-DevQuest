@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    size: 0;
+    box-sizing: border-box;
+}
+
+.Primeira-secao{
+    background-color: blue;
+
+    border-bottom: 10px solid green;
+
+    width: 100%;
+    height: 500px;
+}
+
+
+.Segunda-secao{
+    background-color: red;
+
+    border-bottom: 10px solid green;
+
+    width: 100%;
+    height: 500px;
+}

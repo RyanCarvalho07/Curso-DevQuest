@@ -1,0 +1,34 @@
+/* .container-cascata{
+    background-color: orange;
+} */
+
+
+
+/* O CSS style/CSS sempre vai ler o Código de cima para baixo. */
+
+/* 
+ .container-cascata{
+    background-color:rebeccapurple
+} */
+
+
+
+/* ----------Especificidade---------- */
+
+/* O # È um identificador (ID) e só podemos usar apenas um por opagina entao é bem especifico. */
+#meu-paragrafo {
+    background-color: violet;
+}
+
+/* Já o . é uma classe (CLASS). */
+ .container-especificidade p {
+     background-color: chartreuse;
+    }
+    
+    p {
+        background-color: lightskyblue;
+    }
+    
+/* RESUMO: A regra da especividade é que quanto mais especifico estiver o código será  o código execultado na Página  */
+/* 
+PARA MUDAR O CÓDIGO  DE POCIÇÃO BASTA SELECIONAR E APERTA ALT + PARA CIMA OU PARA BAIXO  */

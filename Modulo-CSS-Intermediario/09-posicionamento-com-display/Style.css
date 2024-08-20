@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 24px;
+}
+
+ul{
+    margin-bottom: 50px;
+}
+
+
+/* ----Esse comando vai ocupar a largura total da tela----   */
+
+.em-block li {
+    background: aqua;
+    margin-bottom: 10px;
+    width: 100px;
+
+}
+  
+ /* ---- Se colocamos dispaly inline não conseguiremos definir largura(width) ou altura(height) no elmento.----  */
+
+ /* ----Esse comando os elementos vão ficar um do lado do outro---- */
+
+ .em-linha li{
+    display: inline;
+    background: aqua;
+} 
+/* 
+----Esse comando os elementos vão ficar um do lado do outro e conseguiremos definir largura(width) e altura(height) no elmento.---- */
+
+.em-linha-e-bloco{
+   display: inline-block;
+    background: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+  /* ----Esse comando esconde o display literalmente---- */
+.esconder{
+    display: none;
+
+}

@@ -1,0 +1,9 @@
+.bg-teste{
+    background: fixed no-repeat #000 url(./imagens/montanha.png)center;
+    height: 826px;
+}
+
+p{
+    color: cornflowerblue;
+    
+}
